@@ -241,7 +241,7 @@ a {
 /* Navbar */
 .site-navbar {
   margin-bottom: 0px;
-  background: #FFDC3D;
+  background: #670e36;
   padding-left: 50px;
   padding-right: 50px;
   border-bottom: none;
@@ -251,8 +251,8 @@ a {
     font-weight: 200; }
     .site-navbar .site-logo a {
       font-weight: 200;
-      font-size: 18px;
-      font-weight: 700;
+      font-size: 19px;
+      font-weight: 500;
       color: #000; }
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0;
@@ -495,7 +495,7 @@ a {
 
 /* Blocks */
 .site-wrap {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   background: #fff; }
 
@@ -534,7 +534,7 @@ a {
     .hero-wrap .hero-contents:after {
       height: 20px;
       width: 50px;
-      background: #FFDC3D; }
+      background: #670e36; }
     .hero-wrap .hero-contents p {
       color: gray; }
   .hero-wrap.text-center .hero-contents {
@@ -589,7 +589,7 @@ a {
   .section-title:after {
     height: 5px;
     width: 15px;
-    background: #FFDC3D; }
+    background: #670e36; }
 
 .player p {
   color: #b3b3b3; }
@@ -609,7 +609,7 @@ a {
     margin: 5px;
     background: #293A8E; }
     .owl-4-slider .owl-dots .owl-dot.active {
-      background: #FFDC3D; }
+      background: #670e36; }
 
 .footer {
   font-size: 14px; }
@@ -643,7 +643,7 @@ a {
 .copyright {
   color: #fff; }
   .copyright a {
-    color: #FFDC3D; }
+    color: #670e36; }
 
 .custom-pagination {
   text-align: center; }
@@ -707,3 +707,15 @@ figure figcaption {
         .comment-list li .comment-body .reply:hover {
           color: #fff;
           background: #293A8E; }
+
+          /* Fixtures */
+          .fixtures{
+            background-color: yellow;
+          }
+          .text-background{
+            background-color: #670e36;
+            color: #fff;
+          }
+          .text-maroon{
+            color:#670e36
+          }
