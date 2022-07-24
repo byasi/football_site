@@ -821,3 +821,9 @@ figure figcaption {
     font-size: 3.5rem;
   }
 }
+
+/* Standings table */
+.current-position{
+  background: #670e36;
+  color: #fafafa;
+}
