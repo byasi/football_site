@@ -980,4 +980,44 @@ list-style: none;
     height: 300px;
    }
 
-   
+   .bg-maroon-darker{
+    background: #470622;
+   }
+   .bg-maroon{
+    background: #670e35;
+   }
+
+   .home-store .btn{
+    border-radius: 20px;
+    background-color: inherit;
+    border-color: #fafafa;
+    color: #fafafa;
+   }
+   .home-store .btn:hover{
+    background-color: #fafafa;
+    color: #000
+   }
+
+   .home-banner {
+    margin-top: -8%;
+   }
+
+   .home-banner .card{
+    border-radius: 15px;
+   }
+   .home-banner .btn {
+    border-radius: 20px;
+    background-color: #7d1142;
+    color: #fafafa;
+   }
+
+   .home-banner .btn-special{
+    background-color: transparent;
+    color: #670e36;
+    border-color: #670e36;
+   }
+
+   .btn-rounded{
+    border-radius: 30px;
+    border-color: #fafafa;
+   }
