@@ -69,7 +69,8 @@ a {
 
 .btn {
   position: relative;
-  top: 0; }
+  top: 0; 
+}
   .btn:hover, .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
@@ -114,9 +115,13 @@ a {
   padding: 3em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 7em 0; } }
+      padding: 7em 0; } 
+    
+    }
   .site-section.site-section-sm {
-    padding: 4em 0; }
+    padding: 4em 0; 
+  
+  }
 
 .bg-text-line {
   display: inline;
@@ -208,13 +213,16 @@ a {
 @media (max-width: 991.98px) {
   .responsive-md-height {
     height: 500px !important;
-    margin-bottom: 15px; } }
+    margin-bottom: 15px; }
+ 
+  }
 
 .site-footer {
   padding: 4em 0; }
   @media (min-width: 768px) {
     .site-footer {
-      padding: 7em 0; } }
+      padding: 7em 0; } 
+    }
   .site-footer p {
     color: #737373; }
   .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
@@ -744,7 +752,7 @@ figure figcaption {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  /* margin-bottom: 10rem; */
   background-position: top center;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -801,7 +809,7 @@ figure figcaption {
     font-size: 1.25rem;
     line-height: 1.4;
   }
-
+ 
   .featurette-heading {
     font-size: 50px;
   }
@@ -811,6 +819,7 @@ figure figcaption {
   .featurette-heading {
     margin-top: 7rem;
   }
+ 
 }
 
 .bd-placeholder-img {
@@ -984,7 +993,7 @@ list-style: none;
     background: #470622;
    }
    .bg-maroon{
-    background: #670e35;
+    background: #7d1142;
    }
 
    .home-store .btn{
@@ -1021,3 +1030,138 @@ list-style: none;
     border-radius: 30px;
     border-color: #fafafa;
    }
+   .tour-content{
+    height: 570px;
+   }
+   .tour-content .simple-menu {
+    background-color: #670e35;
+   }
+   .partner-content{
+    /* height: 600px; */
+    min-height: 600px;
+   }
+   .partner-content .simple-menu {
+    background-color: #670e35;
+   }
+   .simple-navbar{
+    margin-bottom: 0px;
+    background: #7d1142;
+    color: #fafafa;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: none;
+    position: relative;
+    z-index: 1;
+   }
+   .simple-navbar .site-navigation .site-menu {
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0; }
+
+    .simple-navbar .site-navigation .site-menu .active > a {
+      color: #fafafa;
+       }
+    .simple-navbar .site-navigation .site-menu a {
+      text-decoration: none !important;
+      display: inline-block; }
+    .simple-navbar .site-navigation .site-menu > li {
+      display: inline-block;
+      padding: 10px 5px; }
+      .simple-navbar .site-navigation .site-menu > li > a {
+        padding: 10px 10px;
+        letter-spacing: .05em;
+        color: rgba(0, 0, 0, 0.6);
+        text-decoration: none !important; }
+        .simple-navbar .site-navigation .site-menu > li > a:hover {
+          color: #fafafa; }
+      .simple-navbar .site-navigation .site-menu > li:last-child {
+        padding-right: 0; }
+        .simple-navbar .site-navigation .site-menu > li:last-child > a {
+          padding-right: 0; }
+    .simple-navbar .site-navigation .site-menu .has-children {
+      position: relative; }
+      .simple-navbar .site-navigation .site-menu .has-children > a {
+        color: #fafafa;
+        position: relative;
+        padding-right: 20px; }
+        .simple-navbar .site-navigation .site-menu .has-children > a:before {
+          position: absolute;
+          content: "\e313";
+          font-size: 16px;
+          top: 50%;
+          right: 0;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          font-family: 'icomoon'; }
+
+          
+.booking-card{
+  border-radius: 15px;
+  height: 500px;
+  background-color: inherit;
+  border-color: #fafafa;
+}   
+.booking-card hr{
+  background-color: #f8f9fa;
+  color: #fafafa;
+}         
+
+.tour-gifts{
+  border-color: #000;
+  border-radius: 10px;
+}
+
+@media (max-width: 550px) {
+  .side-img{
+    display: none;
+  }
+  .tour-content{
+    height: 600px;
+   }
+   .tour-content h1 {
+    font-size: 30px;
+   }
+   .booking-card h1{
+    font-size: 25px;
+    margin-top: 20px;
+   }
+
+   .booking-card button {
+    font-size: 11px;
+   }
+   .tour-sites{
+    margin-left: 0;
+    /* float: left; */
+   }
+   .tour-sites img{
+    padding: 2px;
+   }
+
+   .partner-content h1{
+    font-size: 25px;
+   }
+   .partner-content img{
+    width: 170px;
+    /* height: 50px; */
+   }
+   .partner-content p{
+    font-size: 15px;
+   }
+   .partner-item{
+    margin-bottom: 50px;
+   }
+   
+   .partner-item .item-2 {
+    margin-top: -25px;
+    /* padding: 2px; */
+   }
+   .partner-item .simple-menu {
+    margin-top: -30px;
+    /* padding: 5px; */
+   }
+   .partner-item .principal-2{
+    margin-top: -30px;
+    align-items: center;
+   }
+}
