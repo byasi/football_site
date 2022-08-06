@@ -730,9 +730,7 @@ figure figcaption {
           background: #7d1142; }
 
           /* Fixtures */
-          .fixtures{
-            background-color: yellow;
-          }
+         
           .text-background{
             background-color: #7d1142;
             color: #fafafa;
@@ -740,6 +738,17 @@ figure figcaption {
           .text-maroon{
             color:#7d1142
           }
+          .fixture-card {
+            border-radius: 20px;
+            cursor: pointer;
+          }
+          .fixture-card:hover{
+            transition: ease all;
+            -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important; 
+          }
+
+
 
           /* Carousel */
           /* GLOBAL STYLES
