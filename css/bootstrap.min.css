@@ -7617,7 +7617,9 @@ a.close.disabled {
 }
 
 .carousel {
-  position: relative
+  position: relative;
+  /* height: 600px; */
+  /* margin-bottom: 10rem; */
 }
 
 .carousel.pointer-event {
@@ -7641,7 +7643,7 @@ a.close.disabled {
   display: none;
   float: left;
   width: 100%;
-  margin-right: -100%;
+  top: -1px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform .6s ease-in-out
@@ -7845,13 +7847,13 @@ a.close.disabled {
 
 .carousel-caption {
   position: absolute;
-  right: 15%;
-  bottom: 1.25rem;
-  left: 15%;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  /* right: 15%; */
+  /* bottom: 1.25rem; */
+  /* left: 15%; */
+  /* padding-top: -50px; */
+  /* padding-bottom: 1.25rem; */
   color: #fff;
-  text-align: center
+  /* text-align: center */
 }
 
 @-webkit-keyframes spinner-border {
