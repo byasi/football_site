@@ -1006,7 +1006,13 @@ list-style: none;
    .bg-maroon{
     background: #7d1142;
    }
-
+   .bg-maroon-light{
+    background: #91546f;
+   }
+   .bg-maroon-lighter{
+    background: #dbafc2;
+    
+   }
    .home-store .btn{
     border-radius: 20px;
     background-color: inherit;
