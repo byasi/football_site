@@ -1119,11 +1119,15 @@ list-style: none;
   background-color: inherit;
   border-color: #fafafa;
 }   
+
 .booking-card hr{
   background-color: #f8f9fa;
   color: #fafafa;
 }         
-
+.ticket-card hr{
+  background-color: #670e35;
+  color: #fafafa;
+} 
 .tour-gifts{
   border-color: #000;
   border-radius: 10px;
